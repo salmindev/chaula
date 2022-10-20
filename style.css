@@ -327,6 +327,9 @@ body{
     margin-right: 10px;
 }
 @media screen and (max-width:768px) {
+    *{
+        box-sizing: border-box;
+    }
     .nav__bar{
         width: 100%;
         height: 70px;
