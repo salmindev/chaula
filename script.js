@@ -7,7 +7,7 @@ function bg(){
   }
   setInterval(bg, 2000);
 
-  const lists = document.getElementById('list--item');
+  const lists = document.querySelector('ul');
   lists.style.opacity = '0';
    function togglemenu(){
        if( lists.style.opacity == '0'){

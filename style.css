@@ -24,6 +24,7 @@ body{
     top: 0;
   
 }
+
 .nav__bar ul{
     color: white;
     list-style: none;
@@ -351,7 +352,7 @@ body{
         z-index: 0;
     }
     .nav__bar ul {
-        top: 50px;
+       top: 50px;
        position: absolute;
        right: 380px;
        display: block;
