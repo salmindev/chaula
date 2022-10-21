@@ -371,7 +371,7 @@ body{
         margin-right: 25rem;
     }
     .nav__bar span i{
-        display: block;
+        display: none;
         font-size: 20px;
     }
    .header{
