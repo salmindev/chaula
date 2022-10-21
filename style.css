@@ -347,6 +347,7 @@ body{
     }
     .nav__bar h1{
         font-size: 23px;
+        margin-left: 15px;
     }
     .overlay{
         z-index: 0;
@@ -368,7 +369,7 @@ body{
         color: white;
     }
     .nav__bar span{
-        margin-right: 25rem;
+        margin-right: 27rem;
         display: flex;
 
     }
@@ -531,9 +532,10 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
-    
-
+    padding: 10px 0; 
+}
+.btn1{
+    width: 60%;
 }
 
 }
