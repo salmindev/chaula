@@ -8,7 +8,7 @@ function bg(){
   setInterval(bg, 2000);
 
   const lists = document.querySelector('ul');
-  lists.style.opacity = '0';
+  lists.style.opacity = '1';
    function togglemenu(){
        if( lists.style.opacity == '0'){
            lists.style.opacity = '1';
