@@ -58,7 +58,7 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-
+    display: none;
 }
 .nav__bar  span i{
    color: white;
@@ -364,14 +364,14 @@ body{
        transition: .5s;
     }
     .nav__bar ul li{
-       
         color: white;
     }
     .nav__bar span{
         margin-right: 25rem;
+        display: flex;
+
     }
     .nav__bar span i{
-        display: none;
         font-size: 20px;
     }
    .header{
