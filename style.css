@@ -6,6 +6,8 @@
 }
 body{
     font-family: 'Barlow Semi Condensed', sans-serif;
+
+    width: 100%;
 }
 
 .nav__bar h1{
@@ -329,14 +331,18 @@ body{
 .contactinfo i{
     margin-right: 10px;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     *{
         margin: 0;
         padding: 0;
+       
+      }
+      body{
+        width: 100%;
         box-sizing: border-box;
       }
     .nav__bar{
-        width: 100%;
+        width: 80%;
         height: 70px;
         padding: 10px 5px;
         display: flex;
@@ -347,17 +353,20 @@ body{
     }
     .nav__bar h1{
         font-size: 23px;
-        margin-left: 15px;
+        margin-left: 10px;
+    }
+    .nav__bar h1{
+        \
     }
     .overlay{
         z-index: 0;
     }
     .nav__bar ul {
-       top: 50px;
+       top: 60px;
        position: absolute;
-       right: 380px;
+       right: 190px;
        display: block;
-       z-index: index;
+       z-index: 10;
        min-width: 180px;
        height: auto;
        background-color: rgb(10, 31, 60);
@@ -367,9 +376,10 @@ body{
     }
     .nav__bar ul li{
         color: white;
+        z-index: 100;
     }
     .nav__bar span{
-        margin-right: 27rem;
+        margin-right: 14rem;
         display: flex;
 
     }
@@ -378,7 +388,7 @@ body{
     }
    .header{
     margin-top: 70px;
-    width: 100%;
+    width: 102%;
     height: 40rem;
     background: url('images/img1.jpg');
     background-position: center;
