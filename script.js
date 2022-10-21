@@ -6,3 +6,13 @@ function bg(){
     
   }
   setInterval(bg, 2000);
+
+  const lists = document.getElementById('list--item');
+  lists.style.opacity = '0';
+   function togglemenu(){
+       if( lists.style.opacity == '0'){
+           lists.style.opacity = '1';
+       }else{
+           lists.style.opacity = '0';
+       }
+   }
